@@ -11,7 +11,7 @@
     <style>
         * {
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, vivaldi;
         }
 
         body {
@@ -85,7 +85,7 @@
 
         .seccion-noticias,
         .header-container{
-            background-color: #f7f7f7
+            background-color: #aef798
 
         }
 
@@ -137,49 +137,46 @@
             margin-left: auto;
         }
     </style>
-    <header>
+    
 <!-- inicio encabezado del sitio -->
     <div class="header-section">
-        <div class="header-container">
-
-            <div class="site-title">
-                <h1>Una web</h1>
+        <div class="header-section">
+            <div class="header-container">
+    
+                <div class="site-title">
+                    <h1>Librería Virtual</h1>
+                </div>
+                
+                <!-- Inicio menú navegación -->
+                <ul class="site-nav">
+                    <a href="#">Inicio</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#news">Noticias</a>
+                    <a href="#team">Nuestro equipo</a>
+                </ul>
+                <!-- Fin menú navegación -->
+    
+                
+                
+                <div class="logo-container">
+                    <img class="logo-container__site-logo" src="./logoLV.png" alt="Logo Libreria Virtual">
+                </div>
             </div>
-            
-            <!-- Inicio menú navegación -->
-            <nav>
-            <ul class="site-nav">
-                <a href="#">Inicio</a>
-                <a href="#services">Servicios</a>
-                <a href="#news">Noticias</a>
-                <a href="#team">Nuestro equipo</a>
-            </ul>
-        </nav>
-            <!-- Fin menú navegación -->
-        </header>    
-            
-            
-            <div class="logo-container">
-                <img class="logo-container__site-logo" src="./logomision.png" alt="Logo MisionTic 2022">
+                
+            <div class="banner">
+                <img src="./banner2.jpg" alt="A banner image">
             </div>
         </div>
-            
-        <div class="banner">
-            <img src="./banner.jpg" alt="A banner image">
-        </div>
-    </div>
 <!-- fin encabezado del sitio -->
 
 
     <!-- inicio contenido principal -->
-    <main>
-
     <div>
 
 
         <h2>Servicios</h2>
         <!-- inicio sección de servicios -->
-        <section id="services" class="services-section">
+        <div id="services" class="services-section">
             <article class="services-info">
                 <img class="services-info__imagen" src="http://placeimg.com/200/200/nature" alt="">
                 <h2 class="services-info__title">Servicio 1</h2>
@@ -204,14 +201,14 @@
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
-        </section>
+        </div>
         <!-- fin sección de servicios -->
 
 
 
         <h2>Noticias</h2>
         <!-- inicio sección de noticias -->
-        <section id="news" class="news-section">
+        <div id="noticias" class="seccion-noticias">
             <article class="news-info">
                 <div class="news-header">
                     <img class="news-info__imagen" src="http://placeimg.com/400/200/animals" alt="">
@@ -256,13 +253,13 @@
                 </p>
             </article>
 
-        </section>
+        </div>
         <!-- fin sección de noticias -->
 
 
         <h2>Equipo</h2>
         <!-- inicio sección de equipo -->
-        <section id="team" class="team-section">
+        <section id="team" class="seccion-equipo">
 
             <article class="team-info">
                 <img class="team-info__imagen" src="http://placeimg.com/100/200/people" alt="">
@@ -305,7 +302,7 @@
 
     </div>
     <!-- fin contenido principal -->
-    </main>
+    
     <!-- Inicio pie del sitio -->
     <footer clase="footer-section"> 
     <div class="seccion-pie">
